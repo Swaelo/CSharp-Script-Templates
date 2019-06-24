@@ -1,0 +1,14 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>Swaelo_CSharp_Class_Template.cs</DefaultName>
+    <Name>Swaelo_CSharp_Class_Template</Name>
+    <Description>Swaelo's Default C# Class Template</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">SwaeloTemplate.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

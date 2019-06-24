@@ -1,14 +1,14 @@
 // ================================================================================================================================
 // File:        #SCRIPTNAME#.cs
-// Description:
+// Description:	
+// Author:	Harley Laurie https://www.github.com/Swaelo/
 // ================================================================================================================================
 
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class #SCRIPTNAME# : MonoBehaviour
 {
-
+    
 }
