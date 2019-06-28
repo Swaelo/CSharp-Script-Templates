@@ -1,7 +1,7 @@
 // ================================================================================================================================
 // File:        #SCRIPTNAME#.cs
 // Description:	
-// Author:      Harley Laurie https://www.github.com/Swaelo/
+// Author:	    Harley Laurie https://www.github.com/Swaelo/
 // ================================================================================================================================
 
 using System.Collections;
@@ -10,7 +10,7 @@ using UnityEngine;
 
 public class #SCRIPTNAME# : MonoBehaviour
 {
-    //This class follows the singleton design pattern, but must be attached to a gameobject
+    //Singleton Instance
     public static #SCRIPTNAME# Instance = null;
-    private void Awake() { Instance = this; }
+    void Awake() { Instance = this; }
 }
